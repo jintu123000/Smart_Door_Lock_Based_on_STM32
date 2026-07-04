@@ -1,0 +1,41 @@
+# Keil MDK build outputs
+Objects/
+Listings/
+DebugConfig/
+
+# Compiled binaries
+*.axf
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+*.crf
+*.o
+*.d
+*.lst
+*.map
+*.htm
+*.build_log.htm
+*.dep
+*.iex
+*.tmp
+
+# Keil project user-specific files
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dbgconf
+JLinkLog.txt
+JLinkSettings.ini
+
+# VS Code
+.vscode/
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+*.bak
+*.swp
+*~
