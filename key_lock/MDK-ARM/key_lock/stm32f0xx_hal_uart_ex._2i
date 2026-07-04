@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I .\OLED -I .\KEY -I .\STMFLASH -I .\MENU
+-ID:\STMF0_projects\key_lock\MDK-ARM\RTE
+-I"D:\Program Files\Keil_v5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include"
+-I"D:\Program Files\Keil_v5\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include"
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F030x6 -DUSE_HAL_DRIVER -DSTM32F030x6
+-o key_lock\stm32f0xx_hal_uart_ex.o --omf_browse key_lock\stm32f0xx_hal_uart_ex.crf --depend key_lock\stm32f0xx_hal_uart_ex.d --feedback "key_lock\key_lock.fed" "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c"

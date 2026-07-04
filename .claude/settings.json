@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '159c\\\\\\\\t\\\\t\\\\tset_printf_usart\\(PRINTF_USART3\\);\\\\n\\\\t\\\\t\\\\tprintf\\(\"<G>Unlock OK\"\\);\\\\n\\\\t\\\\t\\\\tset_printf_usart\\(PRINTF_USART1\\);\\\\n\\\\t\\\\t\\\\tprintf\\(\"Unlock OK\"\\);' ui.c)",
+      "Bash(sed -i '160,161d' ui.c)",
+      "Bash(git status *)",
+      "Bash(git init *)"
+    ]
+  }
+}
